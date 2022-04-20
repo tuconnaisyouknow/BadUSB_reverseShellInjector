@@ -35,7 +35,9 @@ When you plug the BadUSB in a PC you  have to wait for the caps lock to flash to
 
 3. [Have an ssh server](https://github.com/tuconnaisyouknow/BadUSB_reverseShellInjector#linode);
 
-4. Have a victim with **Windows OS** installed in his PC;
+4. [Download PS2EXE](https://github.com/tuconnaisyouknow/BadUSB_reverseShellInjector#ps2exe);
+
+5. Have a victim with **Windows OS** installed in his PC;
 ## Linode
 1. Create an account [here](https://www.linode.com/);
 
@@ -68,6 +70,18 @@ D
 ```
 screen -r
 ```
+##PS2EXE
+1. Go in this [link](https://github.com/MScholtes/PS2EXE) and click on green button on right top of main page. Then click on "Download Zip" and extract zip file.
+
+2. Start powershell as admin and type the following commands :
+```
+Set-Loction $env:HOMEPATH\Downloads\PS2EXE-master\Win-PS2EXE
+Set-ExecutionPolicy Unrestricted -Force
+Import-Module ps2exe
+win-ps2exe
+```
+
+3. Select source file (the file you want to convert), select target file (the directory where you want your file to be), select icon file (you can download some icons [here](https://iconarchive.com/)), check Supress output and Suppress error output. Then click on compile button to finish the convertion.
 ## Install
 1. Download this repository;
 
@@ -82,7 +96,9 @@ cd BadUSB_reverseShellInjector
 
 3. Replace LINK [here](https://github.com/tuconnaisyouknow/BadUSB_reverseShellInjector/blob/main/script.ps1) at line 8 and replce IP and PORT [here](https://github.com/tuconnaisyouknow/BadUSB_reverseShellInjector/blob/main/reverseShell.ps1) at line 3;
 
-4. Put the .ino or .txt file in your **BadUSB**;
+4. [Convert reverseShell.ps1 file in .exe file](https://github.com/tuconnaisyouknow/BadUSB_reverseShellInjector#ps2exe);
+
+5. Put the .ino or .txt file in your **BadUSB**;
 
 5. Find a victim and enjoy !
 ## Requirments for victim PC
