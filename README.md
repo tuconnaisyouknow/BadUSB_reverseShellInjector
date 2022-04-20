@@ -70,7 +70,7 @@ D
 ```
 screen -r
 ```
-##PS2EXE
+## PS2EXE
 1. Go in this [link](https://github.com/MScholtes/PS2EXE) and click on green button on right top of main page. Then click on "Download Zip" and extract zip file.
 
 2. Start powershell as admin and type the following commands :
