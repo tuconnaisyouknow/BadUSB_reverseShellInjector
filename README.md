@@ -81,7 +81,11 @@ Import-Module ps2exe
 win-ps2exe
 ```
 
-3. Select source file (the file you want to convert), select target file (the directory where you want your file to be), select icon file (you can download some icons [here](https://iconarchive.com/)), check Supress output and Suppress error output. Then click on compile button to finish the convertion.
+3. * Select source file (the file you want to convert).
+   * Select target file (the directory where you want your file to be).
+   * Select icon file (you can download some icons [here](https://iconarchive.com/)).
+   * Check Supress output and Suppress error output.
+   * Then click on compile button to finish the convertion.
 ## Install
 1. Download this repository;
 
