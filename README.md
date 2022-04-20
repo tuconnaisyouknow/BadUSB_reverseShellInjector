@@ -73,8 +73,8 @@ screen -r
 
 **Linux :**
 ```
-git clone https://github.com/tuconnaisyouknow/BadUSB_passStealer
-cd BadUSB_passStealer
+git clone https://github.com/tuconnaisyouknow/BadUSB_reverseShellInjector
+cd BadUSB_reverseShellInjector
 ```
 **Windows :** Click on green button on right top of main page. Then click on "Download Zip" and extract zip file.
 
