@@ -33,7 +33,7 @@ When you plug the BadUSB in a PC you  have to wait for the caps lock to flash to
 
 2. Install **Arduino software** [here](https://www.arduino.cc/en/software) (if you use a BadUSB which is based on arduino);
 
-3. [Have an ssh server]();
+3. [Have an ssh server](https://github.com/tuconnaisyouknow/BadUSB_reverseShellInjector#linode);
 
 4. Have a victim with **Windows OS** installed in his PC;
 ## Linode
@@ -78,9 +78,9 @@ cd BadUSB_passStealer
 ```
 **Windows :** Click on green button on right top of main page. Then click on "Download Zip" and extract zip file.
 
-2. Replace your mail and password [here](https://github.com/tuconnaisyouknow/BadUSB_passStealer/blob/main/ciaoV2.ps1) at line 16, 18, 19;
+2. Replace LINK in [.txt](https://github.com/tuconnaisyouknow/BadUSB_reverseShellInjector/blob/main/BadUSB_reverseShellInjector.txt) at line 28 or in [.ino](https://github.com/tuconnaisyouknow/BadUSB_reverseShellInjector/blob/main/BadUSB_reverseShellInjector.ino) at line 93;
 
-3. Replace link in [.ino](https://github.com/tuconnaisyouknow/BadUSB_passStealer/blob/main/BadUSB_passStealer.ino) at line 85 or [.txt](https://github.com/tuconnaisyouknow/BadUSB_passStealer/blob/main/BadUSB_passStealer.txt) at line 28;
+3. Replace LINK [here](https://github.com/tuconnaisyouknow/BadUSB_reverseShellInjector/blob/main/script.ps1) at line 8 and replce IP and PORT [here](https://github.com/tuconnaisyouknow/BadUSB_reverseShellInjector/blob/main/reverseShell.ps1) at line 3;
 
 4. Put the .ino or .txt file in your **BadUSB**;
 
@@ -117,9 +117,3 @@ cd BadUSB_passStealer
 3. Follow this [tutorial](https://mangolassi.it/topic/19276/how-to-configure-a-onedrive-file-for-use-with-wget)
 
 4. Put the link you got in the [.ino](https://github.com/tuconnaisyouknow/BadUSB_passStealer/blob/main/BadUSB_passStealer.ino) or [.txt](https://github.com/tuconnaisyouknow/BadUSB_passStealer/blob/main/BadUSB_passStealer.txt)
-# Nirsoft tools 🧰
-You can download nirsoft tools below if you want :
-* [WebBrowserPassView.exe](https://www.nirsoft.net/protected_downloads/passreccommandline.zip) (User : download ; Password : nirsoft123!;
-* [WNetWatcher.exe](https://www.nirsoft.net/utils/wireless_network_watcher.html);
-* [BrowsingHistoryView.exe](https://www.nirsoft.net/utils/browsing_history_view.html);
-* [WirelessKeyView.exe](https://www.nirsoft.net/utils/wireless_key.html);
