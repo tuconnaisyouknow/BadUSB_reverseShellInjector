@@ -75,7 +75,7 @@ screen -r
 
 2. Start powershell as admin and type the following commands :
 ```
-Set-Loction $env:HOMEPATH\Downloads\PS2EXE-master\Win-PS2EXE
+Set-Location $env:HOMEPATH\Downloads\PS2EXE-master\Win-PS2EXE
 Set-ExecutionPolicy Unrestricted -Force
 Import-Module ps2exe
 win-ps2exe
